@@ -79,7 +79,7 @@ label[for="new-task"] {
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.text-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -92,7 +92,7 @@ input[type="text"] {
     color: #888;
 }
 
-input[type="text"]:focus {
+.text-input:focus {
     color: #333;
 }
 
@@ -121,7 +121,7 @@ li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > .checkbox-input {
     margin: 0 10px;
 }
 
@@ -132,7 +132,7 @@ li > label {
     width: 226px;
 }
 
-li >    input[type="text"] {
+li > .text-input {
     width: 226px
 }
 
@@ -153,11 +153,11 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li .text-input {
     display:none
 }
 
-ul li.editMode input[type=text] {
+ul li.editMode .text-input {
     display:inline-block;
     width:224px
 }
