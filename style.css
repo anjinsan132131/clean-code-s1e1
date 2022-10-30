@@ -49,7 +49,8 @@
     padding: 0px;
 }
 
-.list-item, .title {
+.list-item,
+.title {
     list-style: none;
 }
 
