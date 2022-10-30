@@ -162,11 +162,11 @@
     display: none;
 }
 
-ul .list-item--edit-mod .text-input {
+ul .list-item--edit-mode .text-input {
     display: inline-block;
     width: 224px;
 }
 
-ul .list-item--edit-mod .task-label {
+ul .list-item--edit-mode .task-label {
     display: none;
 }
